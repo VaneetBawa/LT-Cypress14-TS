@@ -1,0 +1,36 @@
+{
+   "lambdatest_auth": {
+      "username": "vaneetb",
+      "access_key": "PQ2AhuxqqOWAfvzfJlvPaOqusS7YKqfwFJR6DoWY2vsA8CvTzC"
+   },
+   "browsers": [
+      {
+         "browser": "Chrome",
+         "platform": "Windows 10",
+         "versions": [
+            "latest-1"
+         ]
+      }
+   ],
+   "run_settings": {
+      "reporter_config_file": "base_reporter_config.json",
+      "build_name": "Cypress 14",
+      "parallels": 2,
+      "specs": "cypress/e2e/1-getting-started/todo.cy.ts,cypress/e2e/login/login.cy.ts",
+      "ignore_files": "",
+      "network": false,
+      "headless": false,
+      "npm_dependencies": {
+         "cypress": "14.0.0",
+         "lambdatest-cypress-cli": "3.0.34"
+      },
+      "accessibility": true,                 
+      "accessibility.wcagVersion": "wcag21a", 
+      "accessibility.bestPractice": true,    
+      "accessibility.needsReview": true
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
